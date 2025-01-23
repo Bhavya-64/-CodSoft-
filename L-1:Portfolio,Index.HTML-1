@@ -16,6 +16,11 @@
     <h2>Profile</h2>
     <br>
     <img id="profile-photo" src="bhavya.jpg" alt="Profile Photo">
+  <section id="resume">
+        <h2>Resume</h2>
+        <p>Click below to download my resume:</p>
+        <a href="RESUME.jpg" download class="resume-link">Download Resume</a>
+      </section>
     <p>
       I'm a passionate and dedicated B.Tech 2nd-year student as a fresher. I've built dynamic web projects and implemented smart solutions, like an RFID-based system with speed calculation. 
       My motivation lies in solving real-world problems with code, constantly learning, and challenging myself. Skilled in creating responsive designs, interactive web apps, and efficient 
