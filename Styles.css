@@ -1,0 +1,152 @@
+/* General Body Styling */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #ead8ea; /* Light gray background for a clean, modern feel */
+  color: #283132;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: #c6b5ca; /* Dark blue-gray background */
+  color: rgb(34, 32, 32);
+  opacity: 0;
+  animation: fadeInHeader 1.5s ease-in-out forwards; /* Fade-in for header */
+}
+
+#profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: fadeInPhoto 2s ease-in-out forwards;
+  animation-delay: 0.5s; /* Delay for photo */
+}
+
+/* Links */
+header a {
+  color: #16282c; /* Light grayish color for links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #e74c3c; /* Red on hover for a subtle emphasis */
+}
+
+/* Section Styling */
+section {
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 25px;
+  background: #ffffff; /* White background for each section */
+  border-radius: 10px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Unique Section Colors with Lighter Shades */
+#profile {
+  background-color: #f7f8fa; /* Very light gray for profile */
+  background-image: url('background.jpg'); /* Add your image URL here */
+  background-size: cover;
+  background-position: center;
+}
+
+#education {
+  background-color: #f0f4f8; /* Light blue-gray */
+}
+
+#skills {
+  background-color: #fff3e0; /* Very light warm yellow */
+}
+
+#certificates {
+  background-color: #f8d7da; /* Light red-pink */
+}
+
+#extracurricular {
+  background-color: #f4e1f1; /* Soft lavender */
+}
+
+#languages {
+  background-color: #e8f5e9; /* Light green */
+}
+
+#projects {
+  background-color: #e3f2fd; /* Light blue */
+}
+
+/* Section Headers */
+h2 {
+  color: #2c3e50; /* Dark blue-gray */
+  border-bottom: 3px solid #3498db; /* Blue accent for a modern touch */
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #d39eae;
+  color: white;
+  margin-top: 30px;
+  opacity: 0;
+  animation: fadeInFooter 1s ease-in-out forwards; /* Fade-in for footer */
+}
+
+/* Keyframe Animations */
+@keyframes fadeInHeader {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInPhoto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInFooter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Scroll-based Animation for Sections */
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
