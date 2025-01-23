@@ -150,3 +150,27 @@ section.visible {
   opacity: 1;
   transform: translateY(0);
 }
+/* Resume Section Styling */
+#resume {
+  background-color: #fff; /* White background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1.5s ease-out;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+/* Resume Link Styling */
+.resume-link {
+  font-size: 1.2rem;
+  color: #3498db; /* Blue color for the link */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.resume-link:hover {
+  color: #e74c3c; /* Red color on hover */
+}
+
