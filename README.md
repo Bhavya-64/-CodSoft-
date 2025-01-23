@@ -132,4 +132,94 @@ landing-page/
 ├── index.html        # Main HTML file
 └── README.md         # Project documentation
 ```
+Here's a sample **README.md** file for your calculator project:
+
+---
+
+# **Web Calculator**
+
+A simple and fully functional web-based calculator built using **HTML**, **CSS**, and **JavaScript**. The calculator provides an intuitive interface for basic arithmetic operations and is styled to resemble a real-life calculator.
+
+## **Features**
+
+- **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division.
+- **Real-Time Display**: Updates the display dynamically as you input numbers or operations.
+- **Responsive Design**: Fits seamlessly on any device, from desktops to mobile screens.
+- **User-Friendly Interface**: Styled with rounded buttons, hover effects, and a clear display area.
+
+## **Project Structure**
+
+The project is structured as follows:
+
+```
+calculator/
+│
+├── index.html    # The main HTML file for the calculator interface
+├── style.css     # The CSS file for styling the calculator
+└── script.js     # The JavaScript file for calculator functionality
+```
+
+## **How to Run**
+
+1. **Download or Clone the Repository**:
+   ```
+   git clone https://github.com/your-username/web-calculator.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```
+   cd calculator
+   ```
+
+3. **Open the Calculator in Your Browser**:
+   - Open the `index.html` file in any modern web browser (e.g., Chrome, Firefox, Safari).
+
+## **Usage**
+
+1. **Input Numbers**:
+   - Click on the numeric buttons (0-9) to enter numbers.
+2. **Perform Operations**:
+   - Use the arithmetic operator buttons (`+`, `-`, `×`, `÷`) to perform calculations.
+3. **Get Results**:
+   - Click the `=` button to calculate the result.
+4. **Clear the Input**:
+   - (Optional: Add a clear button if needed.)
+
+## **Technologies Used**
+
+- **HTML**: For structuring the calculator layout.
+- **CSS**: For designing and styling the calculator.
+- **JavaScript**: For implementing the calculator's logic and interactivity.
+
+## **Customization**
+
+Feel free to modify the code to customize the calculator:
+
+- Change colors and fonts in the `style.css` file.
+- Add additional features like a "clear" button, percentage calculations, or more advanced operations in the `script.js` file.
+
+## **Screenshots**
+
+### Calculator Interface:
+![Calculator Screenshot](screenshot.png)
+
+---
+
+## **Contributing**
+
+Contributions are welcome! If you'd like to improve this project, please fork the repository and submit a pull request.
+
+## **License**
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## **Acknowledgments**
+
+Thanks to all who inspired this project and made web development fun!
+
+---
+
+### Replace `screenshot.png` with an actual screenshot of your calculator in action. Let me know if you'd like help with this!
 
