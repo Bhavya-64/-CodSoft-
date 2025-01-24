@@ -1,0 +1,90 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    width: 100%;
+}
+
+/* Form Elements */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 100px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options input {
+    margin: 5px;
+}
+
+.quiz-item {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+.quiz-item h3 {
+    margin-bottom: 10px;
+}
+
+.quiz-item button {
+    background-color: #007bff;
+}
+
+.quiz-item button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
